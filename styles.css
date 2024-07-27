@@ -216,3 +216,29 @@ footer {
 .section-box {
     scroll-margin-top: 100px;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .property-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .property-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .property-item {
+        margin-bottom: 20px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
