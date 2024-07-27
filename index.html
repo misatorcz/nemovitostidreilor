@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nemovitosti Dreilor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Nemovitosti Dreilor</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Domů</a></li>
+                <li><a href="#about" class="nav-link">Nemovitosti k pronájmu</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                <li><a href="#reserve" class="nav-link">Rezervovat nemovitost</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section-box">
+            <h2>Domů</h2>
+            <p>Vítejte na stránkách Nemovitosti Dreilor. Nabízíme širokou škálu nemovitostí k pronájmu v různých lokalitách. Naše nemovitosti jsou pečlivě udržovány.</p>
+        </section>
+        <section id="about" class="section-box">
+            <h2>Nemovitosti k pronájmu</h2>
+            <div class="property-grid">
+                <div class="property-item">
+                    <img src="dum_pc.png" alt="Dům se sklepem a garáží v Palomino Creek">
+                    <h3>Dům se sklepem a garáží v Palomino Creek</h3>
+                    <div class="price">150.000,- Kč týdně</div>
+                    <h3>Zabezpečení: Alarm, kamerový systém</h3>
+                    <h3>Dostupné k pronájmu</h3>
+                    <a href="#" class="toggle-images" data-images="dum_pc">Více obrázků</a>
+                    <div id="dum_pc" class="more-images" style="display: none;">
+                        <img src="dum_pc/chodba1.png" alt="Dům obrázek 1">
+                        <img src="dum_pc/chodba2.png" alt="Dům obrázek 2">
+                        <img src="dum_pc/Garaz1.png" alt="Dům obrázek 3">
+                        <img src="dum_pc/Garaz2.png" alt="Dům obrázek 4">
+                        <img src="dum_pc/koupelna1.png" alt="Dům obrázek 5">
+                        <img src="dum_pc/koupelna2.png" alt="Dům obrázek 6">
+                        <img src="dum_pc/loznice1.png" alt="Dům obrázek 7">
+                        <img src="dum_pc/loznice2.png" alt="Dům obrázek 8">
+                        <img src="dum_pc/obyvak1.png" alt="Dům obrázek 9">
+                        <img src="dum_pc/obyvak2.png" alt="Dům obrázek 10">
+                    </div>
+                </div>
+                <div class="property-item">
+                    <img src="garsonka_obyvatelna.png" alt="garsonka_obyvatelna">
+                    <h3>Obyvatelná garsonka nedaleko Sila</h3>
+                    <div class="price">50.000,- Kč týdně</div>
+                    <h3>Zabezpečení: žádné</h3>
+                    <h3>Dostupné k pronájmu</h3>
+                    <a href="#" class="toggle-images" data-images="dum1_zh">Více obrázků</a>
+                    <div id="garsonka_obyvatelna" class="more-images" style="display: none;">
+                        <img src="garsonka_obyvatelna/1.png" alt="Dům obrázek 1">
+                        <img src="garsonka_obyvatelna/2.png" alt="Dům obrázek 2">
+                        <img src="garsonka_obyvatelna/3.png" alt="Dům obrázek 3">
+
+                    </div>
+                </div>
+                <div class="property-item">
+                    <img src="garsonka_sklad.png" alt="garsonka_sklad">
+                    <h3>Garsonka využívána jako sklad nedaleko Sila</h3>
+                    <div class="price">50.000,- Kč týdně</div>
+                    <h3>Zabezpečení: žádné</h3>
+                    <h3>Dostupné k pronájmu</h3>
+                    <a href="#" class="toggle-images" data-images="garsonka_sklad">Více obrázků</a>
+                    <div id="garsonka_sklad" class="more-images" style="display: none;">
+                        <img src="garsonka_sklad/1.png" alt="Dům obrázek 1">
+                        <img src="garsonka_sklad/2.png" alt="Dům obrázek 2">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section-box">
+            <h2>Kontakt</h2>
+            <p>Kontaktujte nás na postové schránce: rezervace@nemovitostidreilor.ic nebo na telefonu: 614-444.</p>
+        </section>
+        <section id="reserve" class="section-box">
+            <h2>Rezervovat nemovitost</h2>
+            <iframe src="https://docs.google.com/forms/d/15AbBQImYFtU78hlsdO4qoH7kCvw4Y65qdCMU3bPq6tY/viewform" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Načítám…</iframe>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nemovitosti Dreilor spravováno Jack Dreilor.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content"></div>
+    </div>
+</body>
+</html>
